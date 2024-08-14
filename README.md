@@ -76,19 +76,19 @@
 
 
 ## Github Stats  
+[![committers.top badge](https://user-badge.committers.top/belarus/Daniil-Tiunchyk.svg)](https://user-badge.committers.top/belarus/Daniil-Tiunchyk)
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=Daniil-Tiunchyk&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
 
 <br/>  
 
-  
 
 <br/>  
+
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=Daniil-Tiunchyk&&style=flat-square" align="center" />
 </div>  
   
-
 <br/>  
 
 
