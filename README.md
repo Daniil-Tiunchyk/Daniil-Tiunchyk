@@ -1,10 +1,6 @@
 # Main
 
-Меня зовут Даниил, я работаю с Java Spring, фронтенд на React, REST API, Kafka, микросервисы. Тысячи нас.
-
-Активно участвую в профессиональном сообществе: присутствую на конференциях и побеждаю в хакатонах. В последнее время я заинтересовался нейросетями и их применением в проектах. 
-
-Кроме работы, я студент БГУИР, по специальности - "программист бизнес-аналитик". В университете я занимаю должность заместителя главы учебного сектора студсовета и участвую в исследовательских проектах.
+I am a Java backend developer with a penchant for analytics. My experience—ranging from developing CRM systems and enterprise applications to integrating blockchain services—enables me to transform intricate business requirements into robust, scalable solutions. Through my successes at hackathons, active participation in professional conferences, and involvement in student projects, I adeptly combine technical expertise, collaborative team experience, and an unwavering commitment to effective outcomes.
 
 ---
 
