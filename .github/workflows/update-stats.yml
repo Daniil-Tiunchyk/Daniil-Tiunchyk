@@ -1,0 +1,46 @@
+name: Waka Readme Stats
+
+on:
+  schedule:
+    # Запускается каждый день в полночь по UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Позволяет запускать вручную из вкладки Actions
+
+jobs:
+  update-readme:
+    name: Update Readme with WakaTime Stats
+    runs-on: ubuntu-latest
+    steps:
+      - uses: anmol098/waka-readme-stats@master
+        with:
+          # --- ОБЯЗАТЕЛЬНЫЕ ПАРАМЕТРЫ ---
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # Ключ WakaTime API
+          GH_TOKEN: ${{ secrets.GH_TOKEN }} # Токен GitHub
+
+          # --- ОСНОВНЫЕ ФЛАГИ ОТОБРАЖЕНИЯ ---
+          SHOW_OS: "True" # Показать операционные системы
+          SHOW_PROJECTS: "False" # Показать проекты, над которыми вы работали
+          SHOW_EDITORS: "True" # Показать редакторы кода / IDE
+          SHOW_TIMEZONE: "True" # Показать ваш часовой пояс
+          SHOW_COMMIT: "True" # Показать статистику коммитов по времени суток
+          SHOW_LANGUAGE: "True" # Показать языки программирования
+          SHOW_DAYS_OF_WEEK: "True" # Показать статистику коммитов по дням недели
+          SHOW_LANGUAGE_PER_REPO: "False" # Показать, на каких языках написаны ваши репозитории
+          SHOW_SHORT_INFO: "True" # Показать краткую информацию о вашем GitHub профиле
+          SHOW_LOC_CHART: "False" # Показать график строк кода по кварталам
+          SHOW_TOTAL_CODE_TIME: "True" # Показать общее время кодинга
+          SHOW_PROFILE_VIEWS: "False" # Показать количество просмотров профиля (требует другого action, но флаг есть)
+
+          # --- ФЛАГ, КОТОРЫЙ ПО УМОЛЧАНИЮ ОТКЛЮЧЕН ---
+          SHOW_LINES_OF_CODE: "True" # Показать общее количество написанных строк кода
+
+          # --- ПАРАМЕТРЫ КАСТОМИЗАЦИИ ---
+          LOCALE: "en" # Язык для отображения статистики (en, fr, de, ru, es и т.д.)
+          SECTION_NAME: "waka" # Название секции в README, должно совпадать с <!--START_SECTION:waka-->
+
+          # Показывать дату последнего обновления и ее формат
+          SHOW_UPDATED_DATE: "True"
+          UPDATED_DATE_FORMAT: "%d.%m.%Y в %H:%M:%S" # Формат даты (день.месяц.год и время)
+
+          # Изменить символы для прогресс-баров (1, 2 или 3)
+          SYMBOL_VERSION: "3"
