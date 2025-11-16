@@ -94,8 +94,6 @@ IoT, Hardware & Specialized Tech
 ---
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C380%20hrs%2046%20mins-blue)
-
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.3%20million%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
@@ -147,5 +145,5 @@ No Activity Tracked This Week
 ```
 
 
- Last Updated on 15.11.2025 в 01:04:45 UTC
+ Last Updated on 16.11.2025 в 01:10:28 UTC
 <!--END_SECTION:waka-->
